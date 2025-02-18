@@ -33,13 +33,14 @@ section.main-content .main-content__games {
   margin-top: 2em;
   border-radius: 2em;
   padding: 1em;
-  gap: 0.5em;
+  gap: 0.8em;
   flex-direction: column;
   align-items: center;
   background: #ccc;
 }
 
 .main-content__games h2 {
+  margin: 1em 0;
   font: bold 1.2em var(--poppins);
   color: rgba(0, 0, 0, 0.3);
 }
