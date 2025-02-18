@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap");
+
+:root {
+  --poppins: "Poppins", sans-serif;
+  --pixelify: "Pixelify Sans", sans-serif;
+  --rowdies: "Rowdies", sans-serif;
+  --primary: #ff6b6b;
+  --secondary: #ffd166;
+  --tertiary: #06d6a0;
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #f2f2f2;
+  --dark: #333333;
+  --light: #f8f8f8;
+  --shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--poppins);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--dark);
+  background-color: var(--light);
+  overflow: hidden;
+}
+
+navbar {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+}
+
+navbar a {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: var(--gray);
+}
+
+navbar a > img {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.app-title {
+  display: flex;
+  padding-top: 2em;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title h1 {
+  font: bold 3em var(--pixelify);
+  text-transform: uppercase;
+}
+
+.app-title > img {
+  width: 20%;
+  padding: 0.5em;
+}
