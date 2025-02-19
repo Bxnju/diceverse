@@ -1,0 +1,87 @@
+@import url("global.css");
+
+section.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    padding: 0 2em;
+}
+
+section.main-content .main-content__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    width: 100%;
+}
+
+section.main-content .main-content__header>img {
+    width: 20%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+section.main-content .main-content__header h2 {
+    font: bold 2.2em var(--pixelify);
+    padding-left: 0.3em;
+}
+
+section.main-content .main-content__dices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    margin-top: 2em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 2em;
+    background: #ccc;
+}
+
+.dice-card {
+    aspect-ratio: 1/1;
+    background: var(--white);
+    border-radius: 1em;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.dice-card:hover {
+    transform: scale(1.05);
+}
+
+.dice-card h3 {
+    font: bold 1.4em var(--poppins);
+    color: var(--black);
+}
+
+.create-dice-btn {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+    padding: 1em 1.5em;
+    background: var(--dark);
+    border: none;
+    border-radius: 1em;
+    color: var(--white);
+    font: bold 1.2em var(--poppins);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.create-dice-btn:hover {
+    transform: scale(1.02);
+}
+
+.create-dice-btn img {
+    width: 1.5em;
+    height: 1.5em;
+}
