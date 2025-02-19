@@ -81,7 +81,7 @@ section.main-content {
     height: 4em;
     min-width: 4em;
     border: none;
-    border-radius: 0.8em;
+    border-radius: 50%;
     background: var(--dark);
     cursor: pointer;
     display: flex;
