@@ -1,4 +1,4 @@
-@import url("global.css");
+@import url("../global.css");
 
 section.main-content {
   display: flex;
@@ -18,7 +18,7 @@ section.main-content .main-content__header {
   width: 100%;
 }
 
-section.main-content .main-content__header > img {
+section.main-content .main-content__header>img {
   width: 20%;
   height: auto;
   aspect-ratio: 1/1;
@@ -62,7 +62,7 @@ section.main-content .main-content__dices .dice-card {
   color: var(--black);
 }
 
-.dice-card > img {
+.dice-card>img {
   width: 40%;
 }
 
@@ -88,7 +88,7 @@ section.main-content .main-content__dices .dice-card {
   background: var(--black);
 }
 
-.create-button > img {
+.create-button>img {
   width: 25%;
   height: auto;
   aspect-ratio: 1/1;
