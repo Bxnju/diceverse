@@ -18,7 +18,7 @@ section.main-content .main-content__header {
   width: 100%;
 }
 
-section.main-content .main-content__header > img {
+section.main-content .main-content__header>img {
   width: 20%;
   height: auto;
   aspect-ratio: 1/1;
@@ -63,7 +63,7 @@ section.main-content .main-content__games .game-card {
   color: var(--black);
 }
 
-.game-card > img {
+.game-card>img {
   width: 20%;
 }
 
