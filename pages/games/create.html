@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/games/create.css" />
+    <link rel="shortcut icon" href="../../assets/logo.png" type="image/x-icon" />
+    <title>Diceverse | Create Game</title>
+</head>
+<body>
+    <!-- BOTTOM NAVIGATION -->
+    <navbar>
+        <a href="../dices/index.html">
+            <img src="../../assets/icons/dice.png" alt="dice-icon" />
+        </a>
+        <a href="my_games.html">
+            <img src="../../assets/icons/games.png" alt="games-icon" />
+        </a>
+        <a href="../../index.html">
+            <img src="../../assets/icons/home.png" alt="home-icon" />
+        </a>
+        <a href="../quickgame/index.html">
+            <img src="../../assets/icons/flash.png" alt="quickgame-icon" />
+        </a>
+        <a href="../help/index.html">
+            <img src="../../assets/icons/help.png" alt="help-icon" />
+        </a>
+    </navbar>
+
+    <div class="app-title">
+        <h1>Diceverse</h1>
+        <img src="../../assets/logo.png" alt="" />
+    </div>
+
+    <section class="main-content">
+        <div class="main-content__header">
+            <img src="../../assets/icons/games.png" alt="" />
+            <h2>Create Game</h2>
+        </div>
+
+        <div class="game-form">
+            <input type="text" placeholder="Name" class="game-name-input" />
+
+            <div class="dice-selection">
+                <h3>Select dices for this game</h3>
+                <div class="dice-grid">
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N1</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N2</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N3</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N4</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N5</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N6</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N7</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N8</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N9</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N10</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N11</h4>
+                    </div>
+                    <div class="dice-option" onclick="this.classList.toggle('selected')">
+                        <h4>Dice N12</h4>
+                    </div>
+                </div>
+            </div>
+
+            <button class="create-game-btn" onclick="window.location.href='my_games.html'">
+                <img src="../../assets/icons/create-light.png" alt="Create Game" />
+                Create Game
+            </button>
+        </div>
+    </section>
+</body>
+</html>
