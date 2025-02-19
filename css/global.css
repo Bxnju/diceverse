@@ -5,7 +5,7 @@
   --pixelify: "Pixelify Sans", sans-serif;
   --rowdies: "Rowdies", sans-serif;
   --primary: #ff6b6b;
-  --secondary: #ffd166;
+  --secondary: #ccc;
   --tertiary: #06d6a0;
   --black: #000000;
   --white: #ffffff;
@@ -33,6 +33,7 @@ navbar {
   position: fixed;
   bottom: 0;
   display: flex;
+  z-index: 1000;
   width: 100%;
   align-items: center;
   background-color: var(--white);
@@ -57,7 +58,7 @@ navbar a > img {
 
 .app-title {
   display: flex;
-  padding-top: 2em;
+  padding: 2em 0;
   width: 100%;
   justify-content: center;
   align-items: center;
